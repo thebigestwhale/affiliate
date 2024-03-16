@@ -1,6 +1,6 @@
-baseURL: https://thebigestwhale.github.io/
-languageCode: kr
-title: 사이트 제목입니다
+baseURL: https://thebigestwhale.github.io/affiliate/
+languageCode: en
+title: All About You
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -48,13 +48,13 @@ params:
   defaultTheme: auto
   disableThemeToggle: false
 
-  profileMode:
-    enabled: true
-    title: whale
-    subtitle: test server
-    imageURL: https://cdn.pixabay.com/photo/2019/06/20/09/26/underwater-4286600_1280.jpg
-    imageWidth: 250
-    imageHeight: 250
+  # profileMode:
+  #   enabled: true
+  #   title: whale
+  #   subtitle: test se
+  #   imageURL: https://cdn.pixabay.com/photo/2019/06/20/09/26/underwater-4286600_1280.jpg
+  #   imageWidth: 250
+  #   imageHeight: 250
 
   # socialIcons:
   #   - name: email
@@ -83,7 +83,7 @@ params:
   UseHugoToc: true
 
   homeInfoParams:
-    Title: Tuning the hum of intrinsic noise
+    Title: Ranking Top 10
     Content: will see...
 
   fuseOpts:
@@ -104,34 +104,11 @@ markup:
     lineNos: true
     noClasses: false    
 
-defaultContentLanguage: kr
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 languages:
-  kr:
-    weight: 1
-    languageName: 한국어
-    languageCode: kr
-    contentDir: content/kr/
-    title: 페이퍼 기본 틀
-    menu:
-      main:
-        - name: 게시글
-          url: /posts/
-          weight: 4
-        - name: 아카이브
-          url: /archives/
-          weight: 5
-        - name: 검색
-          url: /search/
-          weight: 10
-        - name: 태그
-          url: /tags/
-          weight: 10
-        - name: 소개
-          url: /about/
-          weight: 15
   en:
-    weight: 2
+    weight: 1
     languageName: English
     languageCode: en
     contentDir: content/en/
