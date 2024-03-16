@@ -1,7 +1,7 @@
 ---
 title: About Me
 layout: about
-url: "/en/about/"
+url: "/about/"
 summary: about
 ---
 
